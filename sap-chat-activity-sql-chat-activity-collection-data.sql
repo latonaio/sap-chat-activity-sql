@@ -1,4 +1,4 @@
-CREATE TABLE `sap_chat_activity_collection_data`
+CREATE TABLE `sap_chat_activity_chat_activity_collection_data`
 (
             `ObjectID`                                             varchar(70) NOT NULL,
             `ETag`                                                 tinyint(1) DEFAULT NULL,
@@ -61,7 +61,7 @@ CREATE TABLE `sap_chat_activity_collection_data`
             `SalesOrganisationID`                                  varchar(20) DEFAULT NULL,
             `SalesOrganisationUUID`                                tinyint(1) DEFAULT NULL,
             `SalesOrganizationDeterminationMethodCode`             varchar(2) DEFAULT NULL,
-            `SalesOrganizationDeterminationMethodCodeText`         tinyint(1) DEFAULT NULL, 
+            `SalesOrganizationDeterminationMethodCodeText`         tinyint(1) DEFAULT NULL,
             `SalesTerritoryDeterminationMethodCode`                varchar(2) DEFAULT NULL,
             `SalesTerritoryDeterminationMethodCodeText`            tinyint(1) DEFAULT NULL,
             `SalesTerritoryID`                                     varchar(6) DEFAULT NULL,

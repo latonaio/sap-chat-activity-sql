@@ -1,4 +1,4 @@
-CREATE TABLE`sap_chat_activity_text_collection_data`
+CREATE TABLE`sap_chat_activity_chat_activity_text_collection_data`
 (
             `ObjectID`            varchar(70) NOT NULL,
             `ParentObjectID`      varchar(70) DEFAULT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE`sap_chat_activity_text_collection_data`
             `UpdatedOn`           tinyint(1) DEFAULT NULL,
             `LastUpdatedBy`       varchar(80) DEFAULT NULL,
             `EntityLastChangedOn` tinyint(1) DEFAULT NULL,
-    PRIMARY KEY(`ObjectID`)
-    CONSTRAINT `SAPChatActivityCollectionTextCollectionData_fk` FOREIGN KEY (`ObjectID`) REFERENCES `sap_chat_activity_collection_data` (`ObjectID`)
+    PRIMARY KEY(`ObjectID`),
+    CONSTRAINT `SAPChatActivityChatActivityTextCollectionData_fk` FOREIGN KEY (`ObjectID`) REFERENCES `sap_chat_activity_chat_activity_collection_data` (`ObjectID`)
 ) ENGINE = InnoDB
  DEFAULT CHARSET = utf8mb4

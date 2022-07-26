@@ -11,9 +11,9 @@ https://api.sap.com/api/chatactivity/overview
 ## sqlの設定ファイル
 sap-chat-activity-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
 
-* sap-chat-activity-collection-data.sql（SAP チャットアクティビティ - チャットアクティビティデータ）  
-* sap-chat-activity-collection-sql-chat-activity-parties-data.sql（SAP チャットアクティビティ - チャットアクティビティ情報データ）  
-* sap-chat-activity-collection-sql-chat-activity-text-collection-data.sql  （SAP チャットアクティビティ - チャットアクティビティテキストデータ）  
+* sap-chat-activity-sql-chat-activity-collection-data.sql（SAP チャットアクティビティ - チャットアクティビティデータ）  
+* sap-chat-activity-sql-chat-activity-parties-data.sql（SAP チャットアクティビティ - チャットアクティビティ関係者データ）  
+* sap-chat-activity-sql-chat-activity-text-collection-data.sql（SAP チャットアクティビティ - チャットアクティビティテキストデータ）  
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
